@@ -22,7 +22,8 @@ header.top p{
 }
 body p{
     margin: 10px;
-    color:#3969c2
+    color:#3969c2;
+    text-align: center;
 }
 /* nav bar */
 nav {
@@ -45,4 +46,8 @@ nav ul li {
 }
 img.top{
     width: 100vw;
+}
+img.benefit{
+  width:100vw;
+  margin-top: -10px;
 }
