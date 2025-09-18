@@ -55,7 +55,8 @@ img.topimage{
     width: 100vw;
     object-fit: fill;
 }
-img.benefit{
+img#benefit{
   width:100vw;
   margin-top: -10px;
+
 }
