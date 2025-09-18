@@ -29,11 +29,7 @@ body p{
 nav {
   background-color: #3969c2;
 }
-nav a{
-    color: #e0f0ff;
-    text-decoration: none;
-    font-weight: 600;
-}
+
 nav ul {
 	margin: 0px;
 	list-style-type: none;
@@ -42,14 +38,24 @@ nav ul {
 nav ul li {
 	display: inline;
 	padding: 5px 10px 5px 10px;
-    
 }
+
+nav ul li a:link, nav ul li a:visited{
+  color: #e6f7fd;
+  text-decoration: none;
+  border-bottom: none;
+  font-weight: bold;
+}
+
+nav ul li.selected{
+  background-color: #002575;
+}
+
 img.topimage{
     width: 100vw;
-	object-fit: fill;
+    object-fit: fill;
 }
 img.benefit{
   width:100vw;
   margin-top: -10px;
-
 }
